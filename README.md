@@ -42,13 +42,8 @@ The data was collected via webscraper on a Letterboxd List. The Letterboxd list 
 - features = ['Genres_encoding','Cast_Count_encoding','Spoken_languages_encoding','Director_encoding','Countries_str_encoding','Original_language_encoding','Watches','Likes','Runtime','Fans','List_appearances','Countries_str_count']
 - target = 'Average_rating'
 
-**Here is the Comparision of different Models before hypertuning**
-
-  <img src="/images/Model_Comparision_Before_Hypertuning.jpg" alt="Model Comparision Before Hypertuning" width="800" height="500" />
-
-**Here is the Important feature identified by the hypertuned model without VIF**
-
-  <img src="/images/Feature_imp_Hypertune_withoutvif.jpg" alt="Feature Importance on Hypertune without vif" width="600" height="600" />
+**Comparing Model Performance without hypertuning.Feature importance based on XGBoost**
+<img src="/images/Model_Comparision_Before_Hypertuning.jpg" alt="Model Comparision Before Hypertuning" width="800" height="500" /> <img src="/images/Feature_imp_Hypertune_withoutvif.jpg" alt="Feature Importance on Hypertune without vif" width="600" height="600" />
 
 **Here is the Comparision of different Models before VIF**
 
