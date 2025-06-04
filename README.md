@@ -36,7 +36,7 @@ The data was collected via webscraper on a Letterboxd List. The Letterboxd list 
 - Bivariate Analysis
 - Multivariate Analysis
 
-<img src="/images/Exploratory_Data_Analysis.jpg" alt="Exploratory_Data_Analysis" width="700" height="600" />
+<img src="/images/Correlation_Matrix_EDA.jpg" alt="Exploratory_Data_Analysis" width="700" height="600" />
 
 ## <u>Predictive Modeling:</u>
 - features 'Genres_encoding','Cast_Count_encoding','Spoken_languages_encoding','Director_encoding','Countries_str_encoding','Original_language_encoding','Watches','Likes','Runtime','Fans','List_appearances','Countries_str_count'
