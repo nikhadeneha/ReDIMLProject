@@ -17,6 +17,9 @@ The data was collected via webscraper on a Letterboxd List. The Letterboxd list 
 - The `Release_year` field is fully blank. The webscraper as of posting this has a known unresolved issue pulling the release year data, that I didn't know about until after 3–4 hours of scraping. If anyone has ideas for how best to fix this issue let me know, but otherwise it will likely remain like this.  
 - The `genre` data is also a little annoying to use, as it's formatted as a list in each entry.
 
+**Data Preprocessing:**
+- Filled missing values with the mean value for Average_rating, Owner_rating, Runtime, Release_year
+
 ---
 <p float="left">
   <img src="/images/Correlation_Matrix.jpg" alt="Correlation Matrix" width="500" height="500" />
