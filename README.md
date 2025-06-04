@@ -18,8 +18,9 @@ The data was collected via webscraper on a Letterboxd List. The Letterboxd list 
 - The `genre` data is also a little annoying to use, as it's formatted as a list in each entry.
 
 ---
-
-**Data Preprocessing:**
+**Steps taken to complete the project**
+*Load the data*
+*Data Preprocessing:*
 - Filled missing values with the mean value for Average_rating, Owner_rating, Runtime, Release_year
 
 ---
