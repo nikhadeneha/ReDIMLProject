@@ -42,14 +42,14 @@ The data was collected via webscraper on a Letterboxd List. The Letterboxd list 
 - features = ['Genres_encoding','Cast_Count_encoding','Spoken_languages_encoding','Director_encoding','Countries_str_encoding','Original_language_encoding','Watches','Likes','Runtime','Fans','List_appearances','Countries_str_count']
 - target = 'Average_rating'
 
-**Comparing Model Performance without hypertuning.Feature importance based on XGBoost**
+**Comparing Model Performance. Feature importance based on HyperParameter Tuned XGBoost**
 <img src="/images/Model_Comparision_Before_VIF.jpg" alt="Model Comparision Before VIF" width="400" height="250" /> <img src="/images/Feature_imp_Hypertune_withoutvif.jpg" alt="Feature Importance on Hypertune without vif" width="400" height="250" />
 
-**Performed VIF on the data**
+**Performed VIF on the data to handle the multicollinearity**
 
 <img src="/images/VIF_Calculation.jpg" alt="VIF Image" width="800" height="500" />
 
-**Here is the Comparision of different Models before VIF**
+**Comparing Model Performance after removing Multicorrelated columns. Feature importance based on HyperParameter Tuned XGBoost**
 
   <img src="/images/Model_Comparision_Before_VIF.jpg" alt="Model Comparision Before VIF" width="800" height="500" />
 
