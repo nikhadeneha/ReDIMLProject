@@ -38,13 +38,13 @@ The data was collected via webscraper on a Letterboxd List. The Letterboxd list 
 - features = ['Genres_encoding','Cast_Count_encoding','Spoken_languages_encoding','Director_encoding','Countries_str_encoding','Original_language_encoding','Watches','Likes','Runtime','Fans','List_appearances','Countries_str_count']
 - target = 'Average_rating'
 
--  Here is the Important feature identified by the model ( Excluding VIF Columns)
+**Here is the Important feature identified by the model ( Excluding VIF Columns)**
   <img src="/images/Feature_imp_randomsearched_vif.jpg" alt="Feature Importance" width="600" height="600" />
 
- - Here is the Comparision of different Models
+**Here is the Comparision of different Models**
   <img src="/images/Model_Comparision.jpg" alt="Model Comparison" width="500" height="500" />
 
-- Here is the Comparision of Actual data vs Predicted data
+**Here is the Comparision of Actual data vs Predicted data**
   <img src="/images/Comparison_Actual_Predicted_randomsearched_vif.jpg" alt="Actual vs Predicted" width="600" height="600" />
 
 ---
