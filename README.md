@@ -21,7 +21,7 @@ The data was collected via webscraper on a Letterboxd List. The Letterboxd list 
 **Steps taken to complete the project**
 
 **Load the data**
--There are 10002 records in the dataset with 29 different features
+- There are 10002 records in the dataset with 29 different features
 
 **Data Preprocessing:**
 - Filled missing values with the mean value for Average_rating, Owner_rating, Runtime, Release_year
