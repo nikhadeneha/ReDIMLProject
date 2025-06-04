@@ -65,6 +65,7 @@ The data was collected via webscraper on a Letterboxd List. The Letterboxd list 
 
 **Hyperparamenter Tuning**
  - Define the parameter distribution for RandomizedSearchCV
+   
 param_distributions = {
     'n_estimators': randint(50, 500),  # Number of boosting rounds
     'learning_rate': uniform(0.01, 0.3), # Step size shrinkage
@@ -76,6 +77,7 @@ param_distributions = {
     'reg_alpha': uniform(0, 0.5),      # L1 regularization term on weights
     'reg_lambda': uniform(0, 0.5)      # L2 regularization term on weights
 }
+
 
 X = X_minmax.drop(columns=['Spoken_languages_encoding','Countries_str_encoding','Genres_encoding','Likes','Cast_Count_encoding']) # dropped these features as these where correlated to each other
 
