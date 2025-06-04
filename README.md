@@ -59,6 +59,10 @@ The data was collected via webscraper on a Letterboxd List. The Letterboxd list 
 
   <img src="/images/Feature_imp_randomsearched_vif.jpg" alt="Feature Importance" width="600" height="600" />
 
+**Here is the Comparision of different Models after VIF**
+
+  <img src="/images/Model_Comparision_After_VIF.jpg" alt="Model Comparision After VIF" width="800" height="500" />
+
 **Hyperparamenter Tuning**
  - Define the parameter distribution for RandomizedSearchCV
 param_distributions = {
