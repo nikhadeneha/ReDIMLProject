@@ -44,6 +44,7 @@ The data was collected via webscraper on a Letterboxd List. The Letterboxd list 
 
 **Comparing Model Performance without hypertuning.Feature importance based on XGBoost**
 <img src="/images/Model_Comparision_Before_Hypertuning.jpg" alt="Model Comparision Before Hypertuning" width="400" height="250" /> <img src="/images/Feature_imp_Hypertune_withoutvif.jpg" alt="Feature Importance on Hypertune without vif" width="400" height="250" />
+
 **Performed VIF on the data**
 <img src="/images/VIF_Calculation.jpg" alt="VIF Image" width="800" height="500" />
 
