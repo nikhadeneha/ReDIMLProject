@@ -52,6 +52,7 @@ The data was collected via webscraper on a Letterboxd List. The Letterboxd list 
 **3.Comparing Model Performance after removing Multicorrelated columns.Feature importance based on HyperParameter Tuned XGBoost**
 - Features: 'Director_encoding','Original_language_encoding','Watches','Runtime','Fans','List_appearances','Countries_str_count'
 - Target: 'Average_rating'
+- Feature Removed: 'Spoken_languages_encoding','Countries_str_encoding','Genres_encoding','Likes','Cast_Count_encoding'
   
 <img src="/images/Model_Comparision_After_VIF.jpg" alt="Model Comparision After VIF" width="400" height="250" /> <img src="/images/Feature_imp_randomsearched_vif.jpg" alt="Feature Importance" width="400" height="250" />
 
