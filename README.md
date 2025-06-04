@@ -39,8 +39,9 @@ The data was collected via webscraper on a Letterboxd List. The Letterboxd list 
 <img src="/images/Correlation_Matrix_EDA.jpg" alt="Exploratory_Data_Analysis" width="700" height="600" />
 
 ## <u>Predictive Modeling:</u>
--features:'Genres_encoding','Cast_Count_encoding','Spoken_languages_encoding','Director_encoding','Countries_str_encoding','Original_language_encoding','Watches','Likes','Runtime','Fans','List_appearances','Countries_str_count'
-- target: 'Average_rating'
+- Features:
+'Genres_encoding','Cast_Count_encoding','Spoken_languages_encoding','Director_encoding','Countries_str_encoding','Original_language_encoding','Watches','Likes','Runtime','Fans','List_appearances','Countries_str_count'
+- Target: 'Average_rating'
 
 **1.Comparing Model Performance.Feature importance based on HyperParameter Tuned XGBoost**
 <img src="/images/Model_Comparision_Before_VIF.jpg" alt="Model Comparision Before VIF" width="400" height="250" /> <img src="/images/Feature_imp_Hypertune_withoutvif.jpg" alt="Feature Importance on Hypertune without vif" width="400" height="250" />
@@ -49,8 +50,8 @@ The data was collected via webscraper on a Letterboxd List. The Letterboxd list 
 <img src="/images/VIF_Calculation.jpg" alt="VIF Image" width="800" height="500" />
 
 **3.Comparing Model Performance after removing Multicorrelated columns.Feature importance based on HyperParameter Tuned XGBoost**
-- features: 'Director_encoding','Original_language_encoding','Watches','Runtime','Fans','List_appearances','Countries_str_count'
-- target: 'Average_rating'
+- Features: 'Director_encoding','Original_language_encoding','Watches','Runtime','Fans','List_appearances','Countries_str_count'
+- Target: 'Average_rating'
   
 <img src="/images/Model_Comparision_After_VIF.jpg" alt="Model Comparision After VIF" width="400" height="250" /> <img src="/images/Feature_imp_randomsearched_vif.jpg" alt="Feature Importance" width="400" height="250" />
 
