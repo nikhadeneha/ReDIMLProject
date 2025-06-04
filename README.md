@@ -32,7 +32,7 @@ The data was collected via webscraper on a Letterboxd List. The Letterboxd list 
 
 **Exploratory Data Analysis:**
 
-<img src="/images/Exploratory_Data_Analysis.jpg" alt="Exploratory_Data_Analysis" width="600" height="600" />
+<img src="/images/Exploratory_Data_Analysis.jpg" alt="Exploratory_Data_Analysis" width="700" height="600" />
 
 **Predictive Modeeling:**
 - features = ['Genres_encoding','Cast_Count_encoding','Spoken_languages_encoding','Director_encoding','Countries_str_encoding','Original_language_encoding','Watches','Likes','Runtime','Fans','List_appearances','Countries_str_count']
