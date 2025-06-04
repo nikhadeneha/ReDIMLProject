@@ -49,7 +49,9 @@ The data was collected via webscraper on a Letterboxd List. The Letterboxd list 
 <img src="/images/VIF_Calculation.jpg" alt="VIF Image" width="800" height="500" />
 
 **3.Comparing Model Performance after removing Multicorrelated columns.Feature importance based on HyperParameter Tuned XGBoost**
-
+- features 'Director_encoding','Original_language_encoding','Watches','Runtime','Fans','List_appearances','Countries_str_count'
+- target = 'Average_rating'
+  
 <img src="/images/Model_Comparision_After_VIF.jpg" alt="Model Comparision After VIF" width="400" height="250" /> <img src="/images/Feature_imp_randomsearched_vif.jpg" alt="Feature Importance" width="400" height="250" />
 
 **4.Hypertuned XGBoost's Model Performance on Test Data**
