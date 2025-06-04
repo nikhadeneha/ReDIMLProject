@@ -20,17 +20,17 @@ The data was collected via webscraper on a Letterboxd List. The Letterboxd list 
 ---
 ## <u>Steps taken to complete the project</u>
 
-**Load the data**
+**1.Load the data**
 - There are 10002 records in the dataset with 29 different features
 
-**Data Preprocessing:**
+**2.Data Preprocessing:**
 - Filled missing values with the mean value for Average_rating, Owner_rating, Runtime, Release_year
 
-**Data cleaning and preparation:**
+**3.Data cleaning and preparation:**
 - Removed duplicates and outliers from Runtime, Average_rating and Owner_rating
 - Performed target encoding for features like Genre, Spoken_languages, Director, Countries, Original_language, cast
 
-**Exploratory Data Analysis:**
+**4.Exploratory Data Analysis:**
 
 - Univariate Analysis
 - Bivariate Analysis
@@ -38,21 +38,21 @@ The data was collected via webscraper on a Letterboxd List. The Letterboxd list 
 
 <img src="/images/Exploratory_Data_Analysis.jpg" alt="Exploratory_Data_Analysis" width="700" height="600" />
 
-**Predictive Modeeling:**
-- features = ['Genres_encoding','Cast_Count_encoding','Spoken_languages_encoding','Director_encoding','Countries_str_encoding','Original_language_encoding','Watches','Likes','Runtime','Fans','List_appearances','Countries_str_count']
+## <u>Predictive Modeling:</u>
+- features 'Genres_encoding','Cast_Count_encoding','Spoken_languages_encoding','Director_encoding','Countries_str_encoding','Original_language_encoding','Watches','Likes','Runtime','Fans','List_appearances','Countries_str_count'
 - target = 'Average_rating'
 
-**Comparing Model Performance.Feature importance based on HyperParameter Tuned XGBoost**
+**1.Comparing Model Performance.Feature importance based on HyperParameter Tuned XGBoost**
 <img src="/images/Model_Comparision_Before_VIF.jpg" alt="Model Comparision Before VIF" width="400" height="250" /> <img src="/images/Feature_imp_Hypertune_withoutvif.jpg" alt="Feature Importance on Hypertune without vif" width="400" height="250" />
 
-**Performed VIF on the data to handle the multicollinearity**
+**2.Performed VIF on the data to handle the multicollinearity**
 <img src="/images/VIF_Calculation.jpg" alt="VIF Image" width="800" height="500" />
 
-**Comparing Model Performance after removing Multicorrelated columns.Feature importance based on HyperParameter Tuned XGBoost**
+**3.Comparing Model Performance after removing Multicorrelated columns.Feature importance based on HyperParameter Tuned XGBoost**
 
 <img src="/images/Model_Comparision_After_VIF.jpg" alt="Model Comparision After VIF" width="400" height="250" /> <img src="/images/Feature_imp_randomsearched_vif.jpg" alt="Feature Importance" width="400" height="250" />
 
-**Hypertuned XGBoost's Model Performance on Test Data**
+**4.Hypertuned XGBoost's Model Performance on Test Data**
 
 <img src="/images/Model_Prediction_nonVIF.jpg" alt="Model Performance on Non-VIF Data" width="400" height="250" /> <img src="/images/Model_Prediction_VIF.jpg" alt="Model Performance on VIF Data" width="400" height="250" />
 
