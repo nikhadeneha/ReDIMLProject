@@ -18,7 +18,7 @@ The data was collected via webscraper on a Letterboxd List. The Letterboxd list 
 - The `genre` data is also a little annoying to use, as it's formatted as a list in each entry.
 
 ---
-**Steps taken to complete the project**
+## <u>**Steps taken to complete the project**</u>
 
 **Load the data**
 - There are 10002 records in the dataset with 29 different features
