@@ -42,35 +42,14 @@ The data was collected via webscraper on a Letterboxd List. The Letterboxd list 
 - features = ['Genres_encoding','Cast_Count_encoding','Spoken_languages_encoding','Director_encoding','Countries_str_encoding','Original_language_encoding','Watches','Likes','Runtime','Fans','List_appearances','Countries_str_count']
 - target = 'Average_rating'
 
-**Comparing Model Performance. Feature importance based on HyperParameter Tuned XGBoost**
+**Comparing Model Performance.Feature importance based on HyperParameter Tuned XGBoost**
 <img src="/images/Model_Comparision_Before_VIF.jpg" alt="Model Comparision Before VIF" width="400" height="250" /> <img src="/images/Feature_imp_Hypertune_withoutvif.jpg" alt="Feature Importance on Hypertune without vif" width="400" height="250" />
 
 **Performed VIF on the data to handle the multicollinearity**
-
 <img src="/images/VIF_Calculation.jpg" alt="VIF Image" width="800" height="500" />
 
-**Comparing Model Performance after removing Multicorrelated columns. Feature importance based on HyperParameter Tuned XGBoost**
+**Comparing Model Performance after removing Multicorrelated columns.Feature importance based on HyperParameter Tuned XGBoost**
 <img src="/images/Model_Comparision_After_VIF.jpg" alt="Model Comparision After VIF" width="400" height="250" /> <img src="/images/Feature_imp_randomsearched_vif.jpg" alt="Feature Importance" width="400" height="250" />
-
-**Here is the Comparision of different Models after VIF**
-
-  <img src="/images/Model_Comparision_After_VIF.jpg" alt="Model Comparision After VIF" width="800" height="500" />
-
-**Hyperparamenter Tuning**
- - Define the parameter distribution for RandomizedSearchCV
-   
-param_distributions = {
-    'n_estimators': randint(50, 500),  # Number of boosting rounds
-    'learning_rate': uniform(0.01, 0.3), # Step size shrinkage
-    'max_depth': randint(3, 10),       # Maximum depth of trees
-    'min_child_weight': randint(1, 6), # Minimum sum of instance weight (hessian) needed in a child
-    'gamma': uniform(0, 0.4),          # Minimum loss reduction required to make a further partition
-    'subsample': uniform(0.6, 0.4),    # Subsample ratio of the training instance
-    'colsample_bytree': uniform(0.6, 0.4), # Subsample ratio of columns when constructing each tree
-    'reg_alpha': uniform(0, 0.5),      # L1 regularization term on weights
-    'reg_lambda': uniform(0, 0.5)      # L2 regularization term on weights
-}
-
 
 X = X_minmax.drop(columns=['Spoken_languages_encoding','Countries_str_encoding','Genres_encoding','Likes','Cast_Count_encoding']) # dropped these features as these where correlated to each other
 
