@@ -32,6 +32,10 @@ The data was collected via webscraper on a Letterboxd List. The Letterboxd list 
 
 **Exploratory Data Analysis:**
 
+- Univariate Analysis
+- Bivariate Analysis
+- Multivariate Analysis
+
 <img src="/images/Exploratory_Data_Analysis.jpg" alt="Exploratory_Data_Analysis" width="700" height="600" />
 
 **Predictive Modeeling:**
