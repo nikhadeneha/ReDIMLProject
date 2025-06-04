@@ -52,8 +52,6 @@ The data was collected via webscraper on a Letterboxd List. The Letterboxd list 
 
 <img src="/images/Model_Comparision_After_VIF.jpg" alt="Model Comparision After VIF" width="400" height="250" /> <img src="/images/Feature_imp_randomsearched_vif.jpg" alt="Feature Importance" width="400" height="250" />
 
-X = X_minmax.drop(columns=['Spoken_languages_encoding','Countries_str_encoding','Genres_encoding','Likes','Cast_Count_encoding']) # dropped these features as these where correlated to each other
-
 **Here is the Comparision of different Models**
 
   <img src="/images/Comparision_of_all_models.jpg" alt="Comparison of all models" width="800" height="500" />
