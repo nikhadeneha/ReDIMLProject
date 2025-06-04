@@ -42,6 +42,7 @@ The data was collected via webscraper on a Letterboxd List. The Letterboxd list 
   <img src="/images/Feature_imp_randomsearched_vif.jpg" alt="Feature Importance" width="600" height="600" />
 
 **Here is the Comparision of different Models**
+
   <img src="/images/Comparision_of_all_models.jpg" alt="Comparison of all models" width="500" height="500" />
 
 **Here is the Comparision of Actual data vs Predicted data**
