@@ -53,6 +53,7 @@ The data was collected via webscraper on a Letterboxd List. The Letterboxd list 
 <img src="/images/Model_Comparision_After_VIF.jpg" alt="Model Comparision After VIF" width="400" height="250" /> <img src="/images/Feature_imp_randomsearched_vif.jpg" alt="Feature Importance" width="400" height="250" />
 
 **Hypertuned XGBoost's Model Performance on Test Data**
+
 <img src="/images/Model_Prediction_nonVIF.jpg" alt="Model Performance on Non-VIF Data" width="400" height="250" /> <img src="/images/Model_Prediction_VIF.jpg" alt="Model Performance on VIF Data" width="400" height="250" />
 
 **Recommendations:**
