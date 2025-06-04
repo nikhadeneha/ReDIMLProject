@@ -47,10 +47,12 @@ The data was collected via webscraper on a Letterboxd List. The Letterboxd list 
   <img src="/images/Model_Comparision_Before_Hypertuning.jpg" alt="Model Comparision Before Hypertuning" width="800" height="500" />
 
 **Here is the Important feature identified by the hypertuned model without VIF**
+
   <img src="/images/Feature_imp_Hypertune_withoutvif.jpg" alt="Feature Importance on Hypertune without vif" width="600" height="600" />
 
 
 **Here is the Important feature identified by the model ( Excluding VIF Columns)**
+
   <img src="/images/Feature_imp_randomsearched_vif.jpg" alt="Feature Importance" width="600" height="600" />
 
 **Hyperparamenter Tuning**
