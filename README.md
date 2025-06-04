@@ -41,17 +41,10 @@ The data was collected via webscraper on a Letterboxd List. The Letterboxd list 
 -  Here is the Important feature identified by the model ( Excluding VIF Columns)
   <img src="/images/Feature_imp_randomsearched_vif.jpg" alt="Feature Importance" width="600" height="600" />
 
-- Here is the Model Comparision
-  <img src="/images/Model_Comparision.jpg" alt="Model Comparison" width="600" height="600" />
+- Here is the Comparision of different Models
+  <img src="/images/Model_Comparision.jpg" alt="Model Comparison" width="500" height="500" />
 
 - Here is the Comparision of Actual data vs Predicted data
   <img src="/images/Comparison_Actual_Predicted_randomsearched_vif.jpg" alt="Actual vs Predicted" width="600" height="600" />
 
 ---
-<p float="left">
-  <img src="/images/Correlation_Matrix.jpg" alt="Correlation Matrix" width="500" height="500" />
-  Here is the Important feature identified by the model ( Excluding VIF Columns)
-  <img src="/images/Feature_imp_randomsearched_vif.jpg" alt="Feature Importance" width="500" height="500" />
-  <img src="/images/Model_Comparision.jpg" alt="Model Comparison" width="500" height="500" />
-  <img src="/images/Comparison_Actual_Predicted_randomsearched_vif.jpg" alt="Actual vs Predicted" width="500" height="500" />
-</p>
