@@ -48,4 +48,8 @@ The data was collected via webscraper on a Letterboxd List. The Letterboxd list 
 **Here is the Comparision of Actual data vs Predicted data**
   <img src="/images/Comparison_Actual_Predicted_randomsearched_vif.jpg" alt="Actual vs Predicted" width="600" height="600" />
 
+**Recommendation**
+- Rating prediction for New/Unreleased Movies
+- Targeted improvements for poorly rated movies
+
 ---
