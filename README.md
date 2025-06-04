@@ -42,6 +42,10 @@ The data was collected via webscraper on a Letterboxd List. The Letterboxd list 
 - features = ['Genres_encoding','Cast_Count_encoding','Spoken_languages_encoding','Director_encoding','Countries_str_encoding','Original_language_encoding','Watches','Likes','Runtime','Fans','List_appearances','Countries_str_count']
 - target = 'Average_rating'
 
+**Here is the Comparision of different Models before hypertuning**
+
+  <img src="/images/Model_Comparision_Before_Hypertuning.jpg" alt="Model Comparision Before Hypertuning" width="800" height="500" />
+
 **Here is the Important feature identified by the model ( Excluding VIF Columns)**
   <img src="/images/Feature_imp_randomsearched_vif.jpg" alt="Feature Importance" width="600" height="600" />
 
