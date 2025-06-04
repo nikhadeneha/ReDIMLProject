@@ -42,7 +42,7 @@ The data was collected via webscraper on a Letterboxd List. The Letterboxd list 
   <img src="/images/Feature_imp_randomsearched_vif.jpg" alt="Feature Importance" width="600" height="600" />
 
 **Hyperparamenter Tuning**
- # Define the parameter distribution for RandomizedSearchCV
+ - Define the parameter distribution for RandomizedSearchCV
 param_distributions = {
     'n_estimators': randint(50, 500),  # Number of boosting rounds
     'learning_rate': uniform(0.01, 0.3), # Step size shrinkage
