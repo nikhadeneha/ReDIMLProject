@@ -50,8 +50,7 @@ The data was collected via webscraper on a Letterboxd List. The Letterboxd list 
 <img src="/images/VIF_Calculation.jpg" alt="VIF Image" width="800" height="500" />
 
 **Comparing Model Performance after removing Multicorrelated columns. Feature importance based on HyperParameter Tuned XGBoost**
-
-<img src="/images/Model_Comparision_After_VIF.jpg" alt="Model Comparision After VIF" width="400" height="250" /> <img src="/images/Feature_imp_randomsearched_vif.jpg" alt="Feature Importance" width="600" height="600" />
+<img src="/images/Model_Comparision_After_VIF.jpg" alt="Model Comparision After VIF" width="400" height="250" /> <img src="/images/Feature_imp_randomsearched_vif.jpg" alt="Feature Importance" width="400" height="250" />
 
 **Here is the Comparision of different Models after VIF**
 
