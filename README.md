@@ -31,6 +31,7 @@ The data was collected via webscraper on a Letterboxd List. The Letterboxd list 
 - Performed target encoding for features like Genre, Spoken_languages, Director, Countries, Original_language, cast
 
 **Exploratory Data Analysis:**
+
 <img src="/images/Correlation_Matrix.jpg" alt="Correlation Matrix" width="500" height="500" />
 
 ---
