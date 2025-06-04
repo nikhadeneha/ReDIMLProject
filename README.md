@@ -1,7 +1,26 @@
 # ReDIMLProject
-Here is the Important feature identified by the model ( Excluding VIF Columns)
+## Letterboxd Dataset
+
+**Where Was The Data Sourced?**  
+The data was collected via webscraper on a Letterboxd List. The Letterboxd list was designed as a 'movie roulette' and has 10,002 entries ranging many genres and decades. The data was scrapped 4/8/2025.
+
+**Full list of fields can be viewed below but some included are:**
+- Film Title  
+- Average User Rating (Out of 5)  
+- Genre  
+- Language  
+- Number of Ratings (Total and by star (ie. 1/2 Star, 1 Star, 1 1/2 Star))  
+- Watches  
+- Likes  
+
+**Known Issues:**  
+- The `Release_year` field is fully blank. The webscraper as of posting this has a known unresolved issue pulling the release year data, that I didn't know about until after 3–4 hours of scraping. If anyone has ideas for how best to fix this issue let me know, but otherwise it will likely remain like this.  
+- The `genre` data is also a little annoying to use, as it's formatted as a list in each entry.
+
+---
 <p float="left">
   <img src="/images/Correlation_Matrix.jpg" alt="Correlation Matrix" width="500" height="500" />
+  Here is the Important feature identified by the model ( Excluding VIF Columns)
   <img src="/images/Feature_imp_randomsearched_vif.jpg" alt="Feature Importance" width="500" height="500" />
   <img src="/images/Model_Comparision.jpg" alt="Model Comparison" width="500" height="500" />
   <img src="/images/Comparison_Actual_Predicted_randomsearched_vif.jpg" alt="Actual vs Predicted" width="500" height="500" />
