@@ -26,6 +26,13 @@ The data was collected via webscraper on a Letterboxd List. The Letterboxd list 
 **Data Preprocessing:**
 - Filled missing values with the mean value for Average_rating, Owner_rating, Runtime, Release_year
 
+**Data cleaning and preparation:**
+- Removed duplicates and outliers from Runtime, Average_rating and Owner_rating
+- Performed target encoding for features like Genre, Spoken_languages, Director, Countries, Original_language, cast
+
+**Exploratory Data Analysis:**
+<img src="/images/Correlation_Matrix.jpg" alt="Correlation Matrix" width="500" height="500" />
+
 ---
 <p float="left">
   <img src="/images/Correlation_Matrix.jpg" alt="Correlation Matrix" width="500" height="500" />
