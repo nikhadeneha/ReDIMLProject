@@ -64,4 +64,8 @@ The data was collected via webscraper on a Letterboxd List. The Letterboxd list 
 - Rating prediction for New/Unreleased Movies
 - Targeted improvements for poorly rated movies
 
+**Future Scope**
+- Text Review Sentiment Analysis
+- Target customers in marketing campaigns using demographic and geographic data
+
 ---
